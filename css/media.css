@@ -1,0 +1,85 @@
+@media screen and (max-width: 480px) {
+	.navbar li a{
+		font: 700 1.7em 'Roboto Slab', serif;
+		text-align: center;
+	}
+	.dropdown-menu li a{
+		display: none;
+	}
+	.slider{
+        margin: 2% 0 0 -6%;
+        width: 111%;
+	}
+	.header-bottom h3{
+		margin: 1% 0 3%;
+	}
+	.shop-btn{
+		width: 100%;
+		padding: 1%;
+	}
+	.hover-pic-01, 
+	.hover-pic-02, 
+	.hover-pic-03, 
+	.hover-pic-04,
+	.hover-pic-05,
+	.hover-pic-06{
+		width: 97%;
+		margin: 1%;
+	}
+	.text-area{
+		width: 108%;
+        margin: 3% 0 0 -4%;
+	}
+	.news-slider{
+		width: 109%;
+		margin: 4% 0 0 -4%;
+	}
+	footer{
+		width: 99%;
+	}
+	.left li a{
+		padding: 3% 0 0 25%;
+	}
+	.right i{
+		padding: 1% 0 6% 6%;
+	}
+}
+/*===========================
+	Tablet
+============================*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.contacts{
+		margin-top: 2%;
+	}
+	.slider{
+		margin: 2% 0 0 24%;
+	}
+	.shop-btn{
+		padding: 2% 40.3%;
+	}
+	.hover-pic-03{
+		margin: 2% 3% 0 1%;
+	}
+	.text-area{
+		width: 748px;
+		margin-left: -2%; 
+	}
+	.news-slider{
+		width: 748px;
+		margin: 1% 0% 0 -2%;
+	}
+	footer{
+		width: 748px;
+	}
+	.left li a{
+		padding: 4% 0 0 35%;
+	}
+	.right p{
+		margin: 12% 0 0 -84%;
+		display: inline;
+	}
+	.right i{
+		padding: 4% 0 0 8%;
+}
+	}
+}
